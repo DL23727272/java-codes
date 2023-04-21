@@ -1,0 +1,342 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "midtermProject",
+            "request": "launch",
+            "mainClass": "midtermProject",
+            "projectName": "JavaGODS_968c6540"
+        },
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Calculator",
+            "request": "launch",
+            "mainClass": "Calculator",
+            "projectName": "JavaGODS_968c6540"
+        },
+        {
+            "type": "java",
+            "name": "First",
+            "request": "launch",
+            "mainClass": "First",
+            "projectName": "JavaGODS_968c6540"
+        },
+        {
+            "type": "java",
+            "name": "Gamoso_2C",
+            "request": "launch",
+            "mainClass": "Gamoso_2C",
+            "projectName": "JavaGODS_968c6540"
+        },
+        {
+            "type": "java",
+            "name": "J1",
+            "request": "launch",
+            "mainClass": "J1",
+            "projectName": "JavaGODS_968c6540"
+        },
+        {
+            "type": "java",
+            "name": "J17",
+            "request": "launch",
+            "mainClass": "J17",
+            "projectName": "JavaGODS_968c6540"
+        },
+        {
+            "type": "java",
+            "name": "J3",
+            "request": "launch",
+            "mainClass": "J3",
+            "projectName": "JavaGODS_968c6540"
+        },
+        {
+            "type": "java",
+            "name": "J8",
+            "request": "launch",
+            "mainClass": "J8",
+            "projectName": "JavaGODS_968c6540"
+        },
+        {
+            "type": "java",
+            "name": "Mains",
+            "request": "launch",
+            "mainClass": "Mains",
+            "projectName": "JavaGODS_968c6540"
+        },
+        {
+            "type": "java",
+            "name": "Ms",
+            "request": "launch",
+            "mainClass": "Ms",
+            "projectName": "JavaGODS_968c6540"
+        },
+        {
+            "type": "java",
+            "name": "StackDemo",
+            "request": "launch",
+            "mainClass": "StackDemo",
+            "projectName": "JavaGODS_968c6540"
+        },
+        {
+            "type": "java",
+            "name": "Tree",
+            "request": "launch",
+            "mainClass": "Tree",
+            "projectName": "JavaGODS_968c6540"
+        },
+        {
+            "type": "java",
+            "name": "act",
+            "request": "launch",
+            "mainClass": "act",
+            "projectName": "JavaGODS_968c6540"
+        },
+        {
+            "type": "java",
+            "name": "act2",
+            "request": "launch",
+            "mainClass": "act2",
+            "projectName": "JavaGODS_968c6540"
+        },
+        {
+            "type": "java",
+            "name": "act3",
+            "request": "launch",
+            "mainClass": "act3",
+            "projectName": "JavaGODS_968c6540"
+        },
+        {
+            "type": "java",
+            "name": "act4",
+            "request": "launch",
+            "mainClass": "act4",
+            "projectName": "JavaGODS_968c6540"
+        },
+        {
+            "type": "java",
+            "name": "act5",
+            "request": "launch",
+            "mainClass": "act5",
+            "projectName": "JavaGODS_968c6540"
+        },
+        {
+            "type": "java",
+            "name": "arM",
+            "request": "launch",
+            "mainClass": "arM",
+            "projectName": "JavaGODS_968c6540"
+        },
+        {
+            "type": "java",
+            "name": "e1",
+            "request": "launch",
+            "mainClass": "e1",
+            "projectName": "JavaGODS_968c6540"
+        },
+        {
+            "type": "java",
+            "name": "j10",
+            "request": "launch",
+            "mainClass": "j10",
+            "projectName": "JavaGODS_968c6540"
+        },
+        {
+            "type": "java",
+            "name": "j11",
+            "request": "launch",
+            "mainClass": "j11",
+            "projectName": "JavaGODS_968c6540"
+        },
+        {
+            "type": "java",
+            "name": "j12",
+            "request": "launch",
+            "mainClass": "j12",
+            "projectName": "JavaGODS_968c6540"
+        },
+        {
+            "type": "java",
+            "name": "j13",
+            "request": "launch",
+            "mainClass": "j13",
+            "projectName": "JavaGODS_968c6540"
+        },
+        {
+            "type": "java",
+            "name": "j14",
+            "request": "launch",
+            "mainClass": "j14",
+            "projectName": "JavaGODS_968c6540"
+        },
+        {
+            "type": "java",
+            "name": "j15",
+            "request": "launch",
+            "mainClass": "j15",
+            "projectName": "JavaGODS_968c6540"
+        },
+        {
+            "type": "java",
+            "name": "j16",
+            "request": "launch",
+            "mainClass": "j16",
+            "projectName": "JavaGODS_968c6540"
+        },
+        {
+            "type": "java",
+            "name": "j18",
+            "request": "launch",
+            "mainClass": "j18",
+            "projectName": "JavaGODS_968c6540"
+        },
+        {
+            "type": "java",
+            "name": "j19",
+            "request": "launch",
+            "mainClass": "j19",
+            "projectName": "JavaGODS_968c6540"
+        },
+        {
+            "type": "java",
+            "name": "j2",
+            "request": "launch",
+            "mainClass": "j2",
+            "projectName": "JavaGODS_968c6540"
+        },
+        {
+            "type": "java",
+            "name": "j20",
+            "request": "launch",
+            "mainClass": "j20",
+            "projectName": "JavaGODS_968c6540"
+        },
+        {
+            "type": "java",
+            "name": "j22",
+            "request": "launch",
+            "mainClass": "j22",
+            "projectName": "JavaGODS_968c6540"
+        },
+        {
+            "type": "java",
+            "name": "j23",
+            "request": "launch",
+            "mainClass": "j23",
+            "projectName": "JavaGODS_968c6540"
+        },
+        {
+            "type": "java",
+            "name": "j24",
+            "request": "launch",
+            "mainClass": "j24",
+            "projectName": "JavaGODS_968c6540"
+        },
+        {
+            "type": "java",
+            "name": "j25",
+            "request": "launch",
+            "mainClass": "j25",
+            "projectName": "JavaGODS_968c6540"
+        },
+        {
+            "type": "java",
+            "name": "j4",
+            "request": "launch",
+            "mainClass": "j4",
+            "projectName": "JavaGODS_968c6540"
+        },
+        {
+            "type": "java",
+            "name": "j5",
+            "request": "launch",
+            "mainClass": "j5",
+            "projectName": "JavaGODS_968c6540"
+        },
+        {
+            "type": "java",
+            "name": "j6",
+            "request": "launch",
+            "mainClass": "j6",
+            "projectName": "JavaGODS_968c6540"
+        },
+        {
+            "type": "java",
+            "name": "j7",
+            "request": "launch",
+            "mainClass": "j7",
+            "projectName": "JavaGODS_968c6540"
+        },
+        {
+            "type": "java",
+            "name": "j9",
+            "request": "launch",
+            "mainClass": "j9",
+            "projectName": "JavaGODS_968c6540"
+        },
+        {
+            "type": "java",
+            "name": "loop22",
+            "request": "launch",
+            "mainClass": "loop22",
+            "projectName": "JavaGODS_968c6540"
+        },
+        {
+            "type": "java",
+            "name": "prac",
+            "request": "launch",
+            "mainClass": "prac",
+            "projectName": "JavaGODS_968c6540"
+        },
+        {
+            "type": "java",
+            "name": "search",
+            "request": "launch",
+            "mainClass": "search",
+            "projectName": "JavaGODS_968c6540"
+        },
+        {
+            "type": "java",
+            "name": "stack_2",
+            "request": "launch",
+            "mainClass": "stack_2",
+            "projectName": "JavaGODS_968c6540"
+        }
+    ]
+}
