@@ -95,13 +95,13 @@ class midtermProject {
                         }
                         else if(cash >= totalPrice){
                             int change = cash - totalPrice;
-                            System.out.println("Thank You sir "+firstName +", your total order amount is " + totalPrice + ", and your change is: " + change);
+                            System.out.println("Ma'am/Sir "+firstName +", your total order amount is " + totalPrice + ", and your change is: " + change + ", Thank You.");
                         }
                     }
                     else if(cash >= totalPrice){
                         
                         int change = cash - totalPrice;
-                        System.out.println("Thank You sir "+firstName +", your total order amount is " + totalPrice + ", and your change is: " + change);
+                        System.out.println("Ma'am/Sir "+firstName +", your total order amount is " + totalPrice + ", and your change is: " + change + ", Thank You.");
                     }
                     break;
                 }

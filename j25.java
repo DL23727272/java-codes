@@ -9,7 +9,7 @@ class j25 {
         name =  br.readLine();
 
          if (name.equalsIgnoreCase("Angela")) {
-            System.out.print("Bonak");
+            System.out.print("My Angela");
           } 
           else if (name.equalsIgnoreCase("Ruvic")) {
             System.out.print("Batang Candon");

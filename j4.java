@@ -31,6 +31,9 @@ public class j4 {
             System.out.println("Answer : " + result + "°F");
 
         }
+        else if (select != 1 || select != 2){
+            System.out.println("Invalid Option!");
+        }
 
     }
 

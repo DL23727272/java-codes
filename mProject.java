@@ -75,6 +75,7 @@ public class mProject {
                     while (addMore) {
                         System.out.print("Do you want to add more items? (Y/N): ");
                         String answer = DL.readLine().toUpperCase();
+                        
                         if (answer.equals("Y")) {
                             System.out.print("\nChoose an item: ");
                             item  = Integer.parseInt(DL.readLine());
@@ -123,7 +124,7 @@ public class mProject {
                             int totalCost = 0;
                             System.out.println("-----------------------------");
                             System.out.println("\nOrder Details");
-                            System.out.println("Product\tQuantity\tPrice");
+                            System.out.println("Product\tQty Price");
                             for (String itemName : order.keySet()) {
                                 int qty = order.get(itemName);
                                 int itemPrice = price[Arrays.asList(pName).indexOf(itemName)];
@@ -152,13 +153,13 @@ public class mProject {
                                 }
                                 else if(cash >= totalCost){
                                     int change = cash - totalCost;
-                                    System.out.println("Thank You sir "+firstName +", your total order amount is " + totalCost + ", and your change is: " + change);
+                                    System.out.println("Ma'am/Sir "+firstName +", your total order amount is " + totalCost + ", and your change is: " + change + ", Thank You.");
                                 }
                             }
                             else if(cash >= totalCost){
                                 
                                 int change = cash - totalCost;
-                                System.out.println("Thank You sir "+firstName +", your total order amount is " + totalCost + ", and your change is: " + change);
+                                System.out.println("Ma'am/Sir "+firstName +", your total order amount is " + totalCost + ", and your change is: " + change + ", Thank You.");
                             }
                             System.out.println("\n-----------------------------------------------------------------------------\n");
                             System.out.println("Enter (Y) to Return, otherwise, press any key to exit.\n");

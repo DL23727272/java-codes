@@ -5,36 +5,18 @@ public class angela {
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Enter Your Age: ");
-        int age = scan.nextInt();
+        String [] genderList = { "nephew", "niece"};
+        System.out.print("Are u a Boy or Girl?: ");
+        String gender = scan.nextLine().toUpperCase();
 
-        switch (age) {
-            case 0:
-            case 1:
-                System.out.println("Infant");
-                break;
-            case 2:
-            case 3:
-            case 4:
-            case 5:
-            case 6:
-            case 7:
-            case 8:
-            case 9:
-            case 10:
-            case 11:
-            case 12:
-                System.out.println("Child");
-                break;
-            case 13:
-            case 14:
-            case 15:
-            case 16:
-            case 17:
-                System.out.println("Adolescent");
-            default: 
-                System.out.println("Adult");
-                break;
+        if (gender.equals("BOY")){
+            System.out.println(genderList[0]);
+        }
+        else if (gender.equals("GIRL")){
+            System.out.println(genderList[1]);
+        }
+        else{
+            System.out.println("Invalid Input");
         }
     }
 }
